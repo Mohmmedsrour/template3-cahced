@@ -396,7 +396,7 @@ ul {
 .word::after {
     content: "";
     border-radius: 50%;
-    background-color: #2196f3;
+    background-color: var(--main-color);
     position: absolute;
     left: 0;
     top: 50%;
@@ -408,7 +408,7 @@ ul {
 .word::before {
     content: "";
     border-radius: 50%;
-    background-color: #2196f3;
+    background-color: var(--main-color);
     position: absolute;
     right: 0;
     top: 50%;
@@ -512,7 +512,7 @@ ul {
 }
 
 .undertext h4 {
-    color: #2196f3;
+    color: var(--main-color);
     font-weight: bolder;
     display: inline-block;
     padding: 20px;
@@ -524,7 +524,7 @@ ul {
 
 .undertext i {
     position: absolute;
-    color: #2196f3;
+    color: var(--main-color);
     font-size: 15px;
     right: 20px;
     top: 50%;
@@ -999,7 +999,7 @@ ul {
 }
 
 .card-info ul li a:hover {
-    color: #2196f3;
+    color: var(--main-color);
     cursor: pointer;
 }
 
@@ -1016,7 +1016,7 @@ ul {
 }
 
 .text4 h2 {
-    color: #2196f3;
+    color: var(--main-color);
     font-weight: 900;
 }
 
@@ -1063,7 +1063,7 @@ ul {
     content: "";
     width: 0%;
     height: 3px;
-    background-color: #2196f3;
+    background-color: var(--main-color);
     position: absolute;
     top: 0;
     left: 50%;
@@ -1077,7 +1077,7 @@ ul {
     content: "";
     width: 0;
     height: 3px;
-    background-color: #2196f3;
+    background-color: var(--main-color);
     position: absolute;
     top: 0;
     left: 50%;
@@ -1110,7 +1110,7 @@ ul {
 .card5 h3 {
     width: 100%;
     text-align: center;
-    color: #2196f3;
+    color: var(--main-color);
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 40px;
@@ -1129,7 +1129,7 @@ ul {
     width: 100px;
     left: -15px;
     top: 0;
-    background-color: #2196f3;
+    background-color: var(--main-color);
     transform: skewX(327deg);
 }
 
@@ -1154,7 +1154,7 @@ ul {
 }
 
 .card5 a {
-    color: #2196f3;
+    color: var(--main-color);
     position: absolute;
     right: 20px;
     top: 50%;
@@ -1204,7 +1204,7 @@ ul {
 
 .skill .per {
     height: 30px;
-    background-color: #2196f3;
+    background-color: var(--main-color);
     margin-top: 10px;
     position: relative;
 }
@@ -1225,7 +1225,7 @@ ul {
     border: solid 1px #ccc;
     right: 0;
     top: -5px;
-    color: #2196f3;
+    color: var(--main-color);
     font-size: 12px;
     border-radius: 3px;
     padding: 4px;
@@ -1410,7 +1410,7 @@ ul {
 .right-side .small-card h2 {
     padding: 10px 17px;
     font-size: 35px;
-    color: #2196f3;
+    color: var(--main-color);
     text-align: center;
 }
 
@@ -1426,7 +1426,7 @@ ul {
 
 .right-side .small-card:hover p,
 .right-side .small-card:hover {
-    border-color: #2196f3;
+    border-color: var(--main-color);
 }
 
 .events-info>img {
@@ -1469,7 +1469,7 @@ ul {
     border-radius: 50px;
     padding: 20px;
     flex: 1;
-    caret-color: #2196f3;
+    caret-color: var(--main-color);
 }
 
 .latest-events-section .form div input[type="email"]:focus {
@@ -1487,7 +1487,7 @@ ul {
 }
 
 .latest-events-section .form div input[type="submit"] {
-    background-color: #2196f3;
+    background-color: var(--main-color);
     border-radius: 50px;
     border: none;
     color: white;
@@ -1497,7 +1497,7 @@ ul {
 }
 
 .latest-events-section .form div input[type="submit"]:hover {
-    background-color: #1787e0;
+    background-color: var(--main-color);
     cursor: pointer;
 }
 
@@ -1581,7 +1581,7 @@ ul {
 }
 
 .card6 :first-child h2 {
-    color: #1787e0;
+    color: var(--main-color);
     font-size: 60px;
     font-weight: bold;
 }
@@ -1596,7 +1596,7 @@ ul {
 }
 
 .card6 i {
-    color: #1787e0;
+    color: var(--main-color);
     font-weight: bolder;
 }
 
@@ -1607,16 +1607,16 @@ ul {
 
 .card6 a {
     padding: 15px 20px;
-    border: solid 2px #1787e0;
+    border: solid 2px var(--main-color);
     border-radius: 5px;
     font-size: 15px;
-    color: #1787e0;
+    color: var(--main-color);
     font-weight: bold;
     transition: var(--main-transtion);
 }
 
 .card6 a:hover {
-    background-color: #1787e0;
+    background-color: var(--main-color);
     color: white;
 }
 
@@ -1626,7 +1626,7 @@ ul {
 
 .mid .most {
     position: absolute;
-    background-color: #1787e0;
+    background-color: var(--main-color);
     color: white;
     font-size: 18px;
     width: 180px;
@@ -1736,7 +1736,7 @@ ul {
 }
 
 .top-videos .container .left-side>div:hover p:first-of-type {
-    color: #1787e0;
+    color: var(--main-color);
 }
 
 .top-videos .container .left-side>div:first-of-type i {
@@ -1839,7 +1839,7 @@ ul {
 }
 
 .card7 p {
-    color: #2196f3;
+    color: var(--main-color);
     font-weight: bold;
     font-style: italic;
     font-size: 20px;
@@ -1850,7 +1850,7 @@ ul {
     content: "";
     width: 2px;
     height: 100%;
-    background-color: #1787e0;
+    background-color: var(--main-color);
     position: absolute;
     left: 0;
     top: 0;
@@ -1863,7 +1863,7 @@ ul {
     content: "";
     width: 2px;
     height: 100%;
-    background-color: #1787e0;
+    background-color: var(--main-color);
     position: absolute;
     right: 0;
     top: 0;
@@ -1894,7 +1894,7 @@ ul {
 }
 
 .left-section {
-    background-color: #1787e0;
+    background-color: var(--main-color);
     position: relative;
 }
 
@@ -1963,7 +1963,7 @@ ul {
     border-bottom: solid 1px #ccc;
     padding-left: 20px;
     padding-right: 20px;
-    caret-color: #1787e0;
+    caret-color: var(--main-color);
 }
 
 .last-section .right-section form input:focus,
@@ -1980,7 +1980,7 @@ ul {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
-    caret-color: #1787e0;
+    caret-color: var(--main-color);
 }
 
 .last-section .right-section form button {
@@ -1994,7 +1994,7 @@ ul {
 }
 
 .last-section .right-section form button:hover {
-    background-color: #1787e0;
+    background-color: var(--main-color);
 }
 
 @media (max-width: 992px) {
@@ -2040,7 +2040,7 @@ ul {
 }
 
 .footer-section li a:first-of-type:hover {
-    background-color: #1877f2;
+    background-color: var(--main-color);
 }
 
 .footer-section .s:hover {
@@ -2070,7 +2070,7 @@ ul {
 }
 
 .footer-section .links i {
-    color: #1787e0;
+    color: var(--main-color);
     margin-right: 10px;
     position: relative;
     transition: var(--main-transtion);
@@ -2105,7 +2105,7 @@ ul {
 }
 
 .places i {
-    color: #1787e0;
+    color: var(--main-color);
     font-size: 25px;
     position: absolute;
     left: 0;
@@ -2160,7 +2160,7 @@ ul {
 
 #wifi-loader {
     --background: #62abff;
-    --front-color: #4f29f0;
+    --front-color: var(--main-color);
     --back-color: #c3c8de;
     --text-color: #414856;
     width: 64px;
@@ -2383,7 +2383,7 @@ ul {
     border-radius: 50%;
     right: 40px;
     top: 85%;
-    background-color: #1787e0;
+    background-color: var(--main-color);
     z-index: 99999;
     cursor: pointer;
     visibility: hidden;
@@ -2392,7 +2392,7 @@ ul {
     border: 2px solid #777;
 }
 .scroll-top:active{
-    box-shadow: 0 0px 10px 0px #1787e0;
+    box-shadow: 0 0px 10px 0px var(--main-color);
     transform: scale(0.9);
 }
 .scroll-top::after{
@@ -2434,3 +2434,99 @@ ul {
 }
 
 /* end scroll to  top*/
+.color-component{
+    width: 250px;
+    height: 100%;
+    background-color: var(--main-color);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999999999;
+    border-right: 1px solid ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateX(-100%);
+    transition: var(--main-transtion);
+}
+.color-component-click{
+    transform: translateX(0%) !important;
+}
+.color-component input[type="radio"]{
+    position: relative;
+    cursor: pointer;
+}
+.color-component input[type="radio"]::after
+{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+}
+.color-component input[type="radio"]:active{
+    box-shadow: 0 0px 10px 0px #1787e0;
+    transform: scale(0.9);
+}
+.container11{
+    padding: 15px;
+}
+.container11 h4{
+    margin-bottom: 15px;
+    text-align: center;
+    color:white;
+    font-size: 15px;
+}
+.color-container{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.radio-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+.color-component input[type="radio"]:nth-child(1):after{
+    background-color: #ff4e6b !important;
+}
+.color-component input[type="radio"]:nth-child(2):after{
+    background-color: #003c00!important;
+}
+.color-component input[type="radio"]:nth-child(3):after{
+    background-color: #ff0f1c !important;
+}
+.color-component input[type="radio"]:nth-child(4):after{
+    background-color: #1c1833 !important;
+}
+.color-component input[type="radio"]:nth-child(5):after{
+    background-color: #2196f3 !important;
+}
+.color-button{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -31px;
+    top: 18%;
+    color: white;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.color-button:active{
+    transform: scale(0.9);
+}
+.scroller{
+    position: fixed;
+    width: 0px;
+    height: 5px;
+    background-color: var(--main-color);
+    left: 0;
+    top: 0;
+    z-index: 999999999999999999999;
+}

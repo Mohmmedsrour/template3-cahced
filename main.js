@@ -1,3 +1,7 @@
+if(window.localStorage.getItem("color"))
+{
+document.styleSheets[0].cssRules[2].style.setProperty("--main-color",window.localStorage.getItem("color"));
+}
 let start = document.querySelector(".w");
 let loader = document.querySelector(".wifi"); 
 window.addEventListener("load",function(e){
@@ -44,4 +48,62 @@ scrollElemnet.addEventListener("click",function(){
         left:0,
         behavior:"smooth"})
 })
+var typed = new Typed('#element', {
+    strings: ['iam mohammed srour', ' iam web developer'],
+    typeSpeed: 100,
+    smartBackspace: true,
+    loop: true,
+    loopCount: Infinity,
+    backDelay: 700,
+    showCursor: true,
+    cursorChar: '|',
+    autoInsertCss: true,
+    backSpeed:100
+    });
+    elemnetColor1= document.querySelector(".color-component");
+    elemnetColor = document.getElementById("color-button");
+    elemnetColor.addEventListener("click",function(){
+        elemnetColor1.classList.toggle("color-component-click");
+    })
+let color1 =document.getElementById("1");
+let color2 =document.getElementById("2");
+let color3 =document.getElementById("3");
+let color4 =document.getElementById("4");
+let color5 =document.getElementById("5");
+let color6 =document.querySelectorAll('.color-component input[type="radio"]')
 
+color1.addEventListener("click",function(){
+    window.localStorage.setItem("color","#ff4e6b");
+})
+color2.addEventListener("click",function(){
+    window.localStorage.setItem("color","#003c00");
+})
+color3.addEventListener("click",function(){
+    window.localStorage.setItem("color","#ff0f1c");
+})
+color4.addEventListener("click",function(){
+    window.localStorage.setItem("color","#1c1833");
+})
+color5.addEventListener("click",function(){
+    window.localStorage.setItem("color","#2196f3");
+})
+
+for(i=0; i<5;i++){
+    color6[i].addEventListener("click",function(){
+        document.styleSheets[0].cssRules[2].style.setProperty("--main-color",window.localStorage.getItem("color"));
+
+    })
+}
+/*scoller*/
+let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+window.addEventListener("resize",function(){
+    height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+});
+let scroller = document.querySelector(".scroller");
+window.addEventListener("scroll",function(){
+    console.log(height);
+    console.log("//////////////");
+    let scrolltop1 =document.documentElement.scrollTop;
+    console.log(scrolltop1);
+    scroller.style.width =`${(scrolltop1/height)*100}%`
+})

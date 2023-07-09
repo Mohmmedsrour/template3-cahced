@@ -8,7 +8,7 @@
     <meta http-equiv='cache-control' content='no-cache'> 
     <meta http-equiv='expires' content='0'> 
     <meta http-equiv='pragma' content='no-cache'>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" crossorigin="use-credentials">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +20,24 @@
 </head>
 
 <body>
+    <div class="scroller"></div>
+    <div class="color-component">
+        <button class="color-button" id="color-button">
+            <i class="fa-solid fa-gear"></i>
+        </button>
+        <div class="container11">
+            <div class="color-container">
+                <h4>Color</h4>
+                <div class="radio-container">
+                    <input type="radio" id="1">
+                    <input type="radio" id="2">
+                    <input type="radio" id="3">
+                    <input type="radio" id="4">
+                    <input type="radio" id="5">
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="scroll-top">
         
     </div>
@@ -111,7 +129,7 @@
         <div class="container">
             <div class="text" data-aos="fade-right" data-aos-offset="300" data-aos-duration="2000"
                 data-aos-easing="ease-in-sine">
-                <h1>Welcome, To Elzero World</h1>
+                <h1 id="element">I am</h1>
                 <p>Here Iam gonna share everything about my life. Boo
                     ks Iam reading, Games Iam Playing, S
                     tories and Events</p>
@@ -942,6 +960,7 @@
         <P class="lastp">Made by Mohammed Srour </P>
     </div>
     <!--end footer-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="main.js"></script>
 </body>
